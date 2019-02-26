@@ -1,0 +1,17 @@
+.top-bar {
+  padding: 10px;
+  background: #333; }
+  .top-bar .contacts {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; }
+    .top-bar .contacts li {
+      margin-right: 10px;
+      color: #fff; }
+      .top-bar .contacts li:last-child {
+        margin-right: 0; }
+      .top-bar .contacts li .icon {
+        color: #f2b23d; }
+
+.navbar .navbar-nav .nav-item .nav-link {
+  padding: 30px; }
