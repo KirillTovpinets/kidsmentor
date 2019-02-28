@@ -2,9 +2,9 @@ $(document).ready(function(){
 	$('#slider').slick({
 		infinite: true,
 		autoplay: true,
-		slidesToShow: 6,
+		slidesToShow: 5,
 		arrows: false,
-		slidesToScroll: 6
+		slidesToScroll: 5
 	});
 	$(".nav-link").click(function(e){
 		var target = $(this).attr('href');
