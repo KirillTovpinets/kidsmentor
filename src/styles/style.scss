@@ -1,4 +1,5 @@
 $yellow: #f2b23d;
+$gray: #f7f7f7;
 .top-bar{
 	padding: 10px;
 	background: #333;
@@ -92,10 +93,39 @@ main{
 				text-align: center;
 				.icon-el{
 					margin-bottom: 20px;
+					color: $yellow;
 				}
 				.divider{
 					height: 1px;
 					background-color: #000;
+				}
+			}
+		}
+		&.team{
+			.member-status{
+				padding: 20px;
+				text-align: center;
+				display: block;
+				box-shadow: 0 0 10px 0 rgba(0, 0, 0, .5);
+				.name{
+					display: block;
+					font-weight: 700;
+				}
+				.status{
+					color: #aaa;
+				}
+			}
+		}
+		&.histories{
+			background-color: $gray;
+			.history{
+				.text{
+					background-color: #fff;
+					padding: 50px;
+					border: 1px solid #ccc;
+					p{
+						color: #999;
+					}
 				}
 			}
 		}
