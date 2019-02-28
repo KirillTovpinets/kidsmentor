@@ -133,6 +133,26 @@ main{
 		&.gallery{
 			.img{
 				padding: 2px;
+				position: relative;
+				overflow: hidden;
+				.overlay{
+					position: absolute;
+					top: 100%;
+					left: 0;
+					background: rgba(242,178,61, .8);
+					height: 100%;
+					width: 100%;
+					transition: all .3s ease-in;
+					a{
+						color: #fff;
+					}
+				}
+				&:hover{
+					cursor: pointer;
+					.overlay{
+						top: 0;
+					}
+				}
 			}
 		}
 		&.partners{
