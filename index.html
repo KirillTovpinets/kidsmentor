@@ -11,6 +11,7 @@
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 		<link rel="stylesheet" href="./style.css">
 	</head>
 	<body>
@@ -20,7 +21,7 @@
 					<ul class="contacts d-flex">
 						<li>
 							<i class="fas icon fa-phone"></i>
-							+375 33 66 79 711
+							+375 44 771 88 64
 						</li>
 						<li>
 							<i class="fas icon fa-at"></i>
@@ -31,23 +32,27 @@
 			</div>
 			<nav class="navbar navbar-expand-sm navbar-light">
 				<div class="container">
-						<a class="navbar-brand" href="#">Navbar</a>
+						<a class="navbar-brand" href="#">
+							<img src="./src/img/logo_black.png" alt="">
+						</a>
 						<button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
 								aria-expanded="false" aria-label="Toggle navigation"></button>
 						<div class="collapse navbar-collapse" id="collapsibleNavId">
 								<ul class="navbar-nav ml-auto ">
 										<li class="nav-item active">
-												<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+											<a class="nav-link" href="#about">О нас</a>
 										</li>
 										<li class="nav-item">
-												<a class="nav-link" href="#">Link</a>
+											<a class="nav-link" href="#mission">Миссия</a>
 										</li>
-										<li class="nav-item dropdown">
-												<a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-												<div class="dropdown-menu" aria-labelledby="dropdownId">
-														<a class="dropdown-item" href="#">Action 1</a>
-														<a class="dropdown-item" href="#">Action 2</a>
-												</div>
+										<li class="nav-item">
+											<a class="nav-link" href="#team">Команда</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="#histories">Истории</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="#gallery">Галерея</a>
 										</li>
 								</ul>
 						</div>
@@ -67,7 +72,7 @@
 					</div>
 				</div>
 			</div>
-			<section class="d-flex p-0 about">
+			<section class="d-flex p-0 about" id="about">
 					<div class="col-md-6 p-0 image">
 						<img src="http://placehold.it/1000x1000" alt="">
 					</div>
@@ -81,7 +86,7 @@ Sint nostrud duis ullamco ullamco ad laborum Lorem aliquip magna cupidatat labor
 						</div>
 					</div>
 			</section>
-			<section class="mission">
+			<section class="mission" id="mission">
 				<div class="container">
 					<h3 class="header-title">МИССИЯ</h3>
 					<hr class="divider">
@@ -133,7 +138,7 @@ Sint nostrud duis ullamco ullamco ad laborum Lorem aliquip magna cupidatat labor
 					</div>
 				</div>
 			</section>
-			<section class="team">
+			<section class="team" id="team">
 				<div class="container">
 					<h3 class="header-title">НАША КОМАНДА</h3>
 					<hr class="divider">
@@ -157,21 +162,10 @@ Sint nostrud duis ullamco ullamco ad laborum Lorem aliquip magna cupidatat labor
 					</div>
 				</div>
 			</section>
-			<section class="histories">
+			<section class="histories" id="histories">
 				<div class="container">
-					<h3 class="header-title">ИСТОРИИ НАСТАВНИЧЕСТВА</h3>
+					<h3 class="header-title">ИСТОРИИ ВЗАИМООТНОШЕНИЙ</h3>
 					<hr class="divider">
-					<div class="row history pt-5 mb-1">
-						<div class="col-md-6 image p-0">
-							<img src="./src/img/histories/Vita&Oksana.jpg" alt="">
-						</div>
-						<div class="col-md-6 text">
-							<h4 class="mb-3">Виктор и Оксана</h4>
-							<p>
-									Пять лет назад Виктор Михалевич вышел за порог детского дома и понял, что попал в другой мир. Точнее, парень сам оказался в этом мире «другим»: не умел готовить еду, купить билет на электричку, распределить стипендию на месяц. И кто знает, какой бы сейчас была его история, не встреть он однажды друга, ставшего для него наставником. А позже и женой.
-							</p>
-						</div>
-					</div>
 					<div class="row history pt-5 mb-1">
 						<div class="col-md-6 text">
 							<h4 class="mb-3">Яна и Катя</h4>
@@ -208,7 +202,7 @@ Sint nostrud duis ullamco ullamco ad laborum Lorem aliquip magna cupidatat labor
 					</div>
 				</div>
 			</section>
-			<section class="gallery pb-0">
+			<section class="gallery pb-0" id="gallery">
 					<h4 class="header-title">ГАЛЕРЕЯ</h4>
 					<hr class="divider">
 					<div class="row pt-5">
@@ -283,7 +277,7 @@ Sint nostrud duis ullamco ullamco ad laborum Lorem aliquip magna cupidatat labor
 						<ul class="contacts">
 							<li>
 								<i class="fas fa-phone icon"></i>
-								+375 33 66 79 711
+								+375 44 771 88 64
 							</li>
 							<li>
 								<i class="fas fa-envelope icon"></i>
@@ -300,7 +294,10 @@ Sint nostrud duis ullamco ullamco ad laborum Lorem aliquip magna cupidatat labor
 		</div>
 		<!-- Optional JavaScript -->
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 		<script defer src="https://use.fontawesome.com/releases/v5.1.1/js/all.js" integrity="sha384-BtvRZcyfv4r0x/phJt9Y9HhnN5ur1Z+kZbKVgzVBAlQZX4jvAuImlIz+bG7TS00a" crossorigin="anonymous"></script>

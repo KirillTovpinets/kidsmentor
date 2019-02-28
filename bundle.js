@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("$(document).ready(function(){\n\tconsole.log('privet')\n\t$('#slider').slick({\n\t\tinfinite: true,\n\t\tautoplay: true,\n\t\tslidesToShow: 6,\n\t\tarrows: false,\n\t\tslidesToScroll: 6\n\t});\n})\n\n//# sourceURL=webpack:///./src/js/index.js?");
+eval("$(document).ready(function(){\n\t$('#slider').slick({\n\t\tinfinite: true,\n\t\tautoplay: true,\n\t\tslidesToShow: 6,\n\t\tarrows: false,\n\t\tslidesToScroll: 6\n\t});\n\t$(\".nav-link\").click(function(e){\n\t\tvar target = $(this).attr('href');\n\t\tlet from = $(target).offset().top;\n\t\t$('html, body').animate({\n\t\t\tscrollTop: from\n\t\t}, 1000)\n\t\treturn false;\n\t})\n})\n\n//# sourceURL=webpack:///./src/js/index.js?");
 
 /***/ }),
 
