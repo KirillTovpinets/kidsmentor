@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("\n\n//# sourceURL=webpack:///./src/js/index.js?");
+eval("$(document).ready(function(){\n\tconsole.log('privet')\n\t$('#slider').slick({\n\t\tinfinite: true,\n\t\tautoplay: true,\n\t\tslidesToShow: 6,\n\t\tarrows: false,\n\t\tslidesToScroll: 6\n\t});\n})\n\n//# sourceURL=webpack:///./src/js/index.js?");
 
 /***/ }),
 
