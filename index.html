@@ -5,7 +5,7 @@
 		<!-- Required meta tags -->
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
@@ -15,11 +15,14 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.6/jquery.fancybox.min.css">
 		<link rel="stylesheet" href="./style.css">
 	</head>
-	<body>
+	<body id="top">
+		<a href="#top" class="scroll-top">
+			<i class="fa fa-angle-up" aria-hidden="true"></i>
+		</a>
 		<header>
 			<div class="top-bar">
 				<div class="container d-flex justify-content-end">
-					<ul class="contacts d-flex">
+					<ul class="contacts d-flex align-items-center">
 						<li>
 							<i class="fas icon fa-phone"></i>
 							+375 44 771 88 64
@@ -28,16 +31,27 @@
 							<i class="fas icon fa-at"></i>
 							info@kidsmentor.org
 						</li>
+						<li>
+							<button type="button" class="btn btn-outline-warning">Поддержать</button>
+						</li>
 					</ul>
 				</div>
 			</div>
-			<nav class="navbar navbar-expand-sm navbar-light">
+			<nav class="navbar navbar-expand-md navbar-light">
 				<div class="container">
+					<div class="d-flex align-items-center">
 						<a class="navbar-brand" href="#">
-							<img src="./src/img/logo_black.png" alt="">
+							<img src="./src/img/logo.png" alt="" width="100" />
 						</a>
+						<div class="title-container d-md-none d-lg-block">
+							<h1 class="title">Hити Дружбы</h1>
+							<p class="slogan">измени жизнь ребёнка</p>
+						</div>
+					</div>
 						<button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
-								aria-expanded="false" aria-label="Toggle navigation"></button>
+								aria-expanded="false" aria-label="Toggle navigation">
+						<i class="fas fa-bars"></i>
+						</button>
 						<div class="collapse navbar-collapse" id="collapsibleNavId">
 								<ul class="navbar-nav ml-auto ">
 										<li class="nav-item">
@@ -73,7 +87,7 @@
 					</div>
 				</div>
 			</div>
-			<section class="d-flex p-0 about" id="about">
+			<section class="d-flex p-0 about flex-md-row flex-column" id="about">
 					<div class="col-md-6 p-0 image">
 						<img src="http://placehold.it/1000x1000" alt="">
 					</div>
@@ -144,19 +158,19 @@ Sint nostrud duis ullamco ullamco ad laborum Lorem aliquip magna cupidatat labor
 					<h3 class="header-title">НАША КОМАНДА</h3>
 					<hr class="divider">
 					<div class="row pt-5">
-						<div class="col-md-3">
+						<div class="col-md-3 col-sm-6">
 							<img src="./src/img/team/t-1.png" alt="">
 							<div class="member-status"><span class="name">Артём Головий</span> <span class="status">Директор</span></div>
 						</div>
-						<div class="col-md-3">
+						<div class="col-md-3 col-sm-6">
 							<img src="./src/img/team/t-2.png" alt="">
 							<div class="member-status"><span class="name">Наталья Смущук</span> <span class="status">Психолог</span></div>
 						</div>
-						<div class="col-md-3">
+						<div class="col-md-3 col-sm-6">
 							<img src="./src/img/team/t-3.png" alt="">
 							<div class="member-status"><span class="name">Наталья Сай</span> <span class="status">Координатор</span></div>
 						</div>
-						<div class="col-md-3">
+						<div class="col-md-3 col-sm-6">
 							<img src="./src/img/team/t-4.png" alt="">
 							<div class="member-status"><span class="name">Екатерина Хумала</span> <span class="status">Пресс-секретарь</span></div>
 						</div>
@@ -167,22 +181,22 @@ Sint nostrud duis ullamco ullamco ad laborum Lorem aliquip magna cupidatat labor
 				<div class="container">
 					<h3 class="header-title">ИСТОРИИ ВЗАИМООТНОШЕНИЙ</h3>
 					<hr class="divider">
-					<div class="row history pt-5 mb-1">
-						<div class="col-md-6 text">
+					<div class="row history pt-5 mb-1 flex-lg-row flex-md-column">
+						<div class="col-md-6 col-sm-12 text">
 							<h4 class="mb-3">Яна и Катя</h4>
 							<p>
 									«Мой жизненный опыт, – говорит Яна, – подтвердил, что самыми ценными вещами, которыми люди могут делиться друг с другом, являются склонность, забота, участие в жизни друг друга, принятие, одобрение, любовь. Каждый человек нуждается в этом, особенно дети-сироты »
 							</p>
 						</div>
-						<div class="col-md-6 image p-0">
+						<div class="col-md-6 col-sm-12 image p-0">
 							<img src="./src/img/histories/jana&katja.jpg" alt="">
 						</div>
 					</div>
-					<div class="row history pt-5 mb-1">
-						<div class="col-md-6 image p-0">
+					<div class="row history pt-5 mb-1 flex-lg-row flex-md-column">
+						<div class="col-md-6 col-sm-12 image p-0">
 							<img src="./src/img/histories/Ruslan.jpg" alt="">
 						</div>
-						<div class="col-md-6 text">
+						<div class="col-md-6 col-sm-12 text">
 							<h4 class="mb-3">Андрей и Руслан</h4>
 							<p>
 								Андрэй дапамагаў падлетку ў вучобе. Падказаў, якую прафесію выбраць, — Руслан цяпер вучыцца на лагіста. Астатнія хлопцы з інтэрната таксама паступілі
@@ -190,7 +204,7 @@ Sint nostrud duis ullamco ullamco ad laborum Lorem aliquip magna cupidatat labor
 							</p>
 						</div>
 					</div>
-					<div class="row history pt-5 mb-1">
+					<div class="row history pt-5 mb-1 flex-lg-row flex-md-column">
 						<div class="col-md-6 text">
 							<h4 class="mb-3">Андрей и Ольга</h4>
 							<p>
@@ -367,8 +381,7 @@ Sint nostrud duis ullamco ullamco ad laborum Lorem aliquip magna cupidatat labor
 			</div>
 		</footer>
 		<div class="copyright">
-			<p>© Учреждение по социальной адаптации детей-сирот "Нити Дружбы", 2014-2019</p>
-			<p>УНП 192314958</p>
+			<p>&copy;2014-2019 Учреждение по социальной адаптации детей-сирот "Нити Дружбы" | УНП 192314958</p>
 		</div>
 		<!-- Optional JavaScript -->
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->

@@ -6,7 +6,7 @@ $(document).ready(function(){
 		arrows: false,
 		slidesToScroll: 5
 	});
-	$(".nav-link").click(function(e){
+	$(".nav-link, .scroll-top").click(function(e){
 		var target = $(this).attr('href');
 		let from = $(target).offset().top;
 		$('.nav-link.active').removeClass('active');
@@ -16,4 +16,15 @@ $(document).ready(function(){
 		}, 1000)
 		return false;
 	})
+})
+
+$(window).scroll(function(e){
+	let top = $('html').scrollTop();
+	if(top > 500) {
+		$('.scroll-top').css('opacity', 1);
+		$('.top-bar').addClass('fixed');
+	} else{
+		$('.scroll-top').css('opacity', 0);
+		$('.top-bar').removeClass('fixed');
+	}
 })
