@@ -16,6 +16,10 @@ $(document).ready(function(){
 		}, 1000)
 		return false;
 	})
+
+	$("#mobile-toggler").click(function(e){
+		$(".mobile-nav").toggleClass('active');
+	})
 })
 
 $(window).scroll(function(e){

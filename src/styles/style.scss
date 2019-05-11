@@ -301,3 +301,21 @@ footer{
 		margin-right: 5px;
 	}
 }
+
+.mobile-nav{
+	list-style-type: none;
+	padding: 0;
+	position: absolute;
+	right: -100px;	
+	z-index: 2;
+	transition: all .3s ease-out;
+}
+.mobile-nav.active{
+	right: 20px;
+}
+.mobile-nav li{
+	padding: 3px;
+}
+.mobile-nav a{
+	color: #000;
+}
